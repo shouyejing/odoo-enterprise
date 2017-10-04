@@ -1,0 +1,9 @@
+<odoo>
+    <data>
+			<template id="list_directory" inherit_id="website.layout">
+				<xpath expr="//div[@class='logo']" position="before">
+					<span t-esc="dir_content"/>
+				</xpath>
+			</template>
+    </data>
+</odoo>

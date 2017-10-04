@@ -1,0 +1,59 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+    <!--
+    <record model="ir.ui.view" id="enterprise-hack.list">
+      <field name="name">enterprise-hack list</field>
+      <field name="model">enterprise-hack.enterprise-hack</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+    -->
+
+    <!-- actions opening views on models -->
+    <!--
+    <record model="ir.actions.act_window" id="enterprise-hack.action_window">
+      <field name="name">enterprise-hack window</field>
+      <field name="res_model">enterprise-hack.enterprise-hack</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+    -->
+
+    <!-- server action to the one above -->
+    <!--
+    <record model="ir.actions.server" id="enterprise-hack.action_server">
+      <field name="name">enterprise-hack server</field>
+      <field name="model_id" ref="model_enterprise-hack_enterprise-hack"/>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+
+    <!-- Top menu item -->
+    <!--
+    <menuitem name="enterprise-hack" id="enterprise-hack.menu_root"/>
+    -->
+    <!-- menu categories -->
+    <!--
+    <menuitem name="Menu 1" id="enterprise-hack.menu_1" parent="enterprise-hack.menu_root"/>
+    <menuitem name="Menu 2" id="enterprise-hack.menu_2" parent="enterprise-hack.menu_root"/>
+    -->
+    <!-- actions -->
+    <!--
+    <menuitem name="List" id="enterprise-hack.menu_1_list" parent="enterprise-hack.menu_1"
+              action="enterprise-hack.action_window"/>
+    <menuitem name="Server to list" id="enterprise-hack" parent="enterprise-hack.menu_2"
+              action="enterprise-hack.action_server"/>
+    -->
+  </data>
+</odoo>
