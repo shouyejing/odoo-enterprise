@@ -1,0 +1,16 @@
+.o_thread_date_separator {
+	direction : rtl;
+}
+
+.datepicker-plot-area-inline-view {
+	box-shadow: none;
+	border-radius: 0px;
+}
+
+.o_mail_info > strong {
+	float: right;
+}
+
+.pdp_default .mouthYear {
+	margin-top: -4px !important;
+}
