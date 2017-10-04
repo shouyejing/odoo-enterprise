@@ -1,7 +1,7 @@
 <odoo>
     <data>
 			<template id="list_directory" inherit_id="website.layout">
-				<xpath expr="//div[@class='logo']" position="before">
+				<xpath expr="//div[@class='navbar-header']" position="before">
 					<span t-esc="dir_content"/>
 				</xpath>
 			</template>
